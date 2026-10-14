@@ -1,60 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="R38xaGOv8K2FJQlJkyeZc7ibchaXi_Y6w9tYxmKrJfg" />
-    <title>Sibusiso "Socks" Sokisi - My Journey</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sibusiso "Socks" Sokisi | Portfolio & Tribute</title>
+  <meta name="description" content="Personal portfolio and tribute page of Sibusiso Sokisi.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <main id="main">
-        <!-- Header Section -->
-        <header>
-            <h1 id="title">Sibusiso "sox" Sokisi</h1>
-            <p class="subtitle">Computer Science Student & Tutor</p>
-        </header>
+  <div class="background-glow"></div>
 
+  <div class="wrapper">
+    <!-- Header / Hero Section -->
+    <header class="hero">
+      <div class="badge">Available for Projects</div>
+      <h1>Sibusiso Sokisi</h1>
+      <p class="subtitle">Mathematics Tutor & Tech Enthusiast</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Get In Touch</a>
+        <a href="https://github.com/shady-sox" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </header>
 
+    <!-- Navigation / Quick Links -->
+    <nav class="nav-pills">
+      <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+      <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+      <a href="#projects"><i class="fa-solid fa-folder-open"></i> Projects</a>
+      <a href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
 
-        <!-- About / Where I Grew Up -->
-        <section class="content-section">
-            <h2>Where I Came From</h2>
-            <p>
-                My journey started with a curiosity for how things work and a drive to solve practical problems. Growing up, I developed a strong focus on discipline, education, and continuous self-improvement.
-            </p>
-        </section>
+    <!-- Main Content Grid -->
+    <main class="content-grid">
+      
+      <!-- About Section -->
+      <section id="about" class="card">
+        <h2><i class="fa-solid fa-user-astronaut"></i> About Me</h2>
+        <p>
+          Welcome to my official home on the web! I'm Sibusiso (often known as <strong>Socks</strong>), a dedicated learner with a strong passion for solving complex mathematical problems, software development, and modern technology.
+        </p>
+        <p>
+          I focus on building clean, structured applications and passing down knowledge through tutoring and community involvement.
+        </p>
+      </section>
 
-        <!-- Timeline / Achievements Section -->
-        <section class="content-section">
-            <h2>Milestones & Achievements</h2>
-            <ul class="timeline">
-                <li>
-                    <strong>Academic Pursuit:</strong> Enrolled as a First-Year Computer Science student at UNISA, mastering core concepts in programming (C++) and foundational mathematics.
-                </li>
-                <li>
-                    <strong>Teaching & Mentorship:</strong> Working as an academic tutor with <em>We R Tutors</em>, guiding learners in Mathematics.
-                </li>
-                <li>
-                    <strong>Tech Exploration:</strong> Hands-on experience with Linux environments (Kali Linux), low-level programming principles, and exploring cybersecurity and algorithmic trading.
-                </li>
-            </ul>
-        </section>
+      <!-- Skills Grid Section -->
+      <section id="skills" class="card">
+        <h2><i class="fa-solid fa-layer-group"></i> Core Focus & Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="fa-solid fa-square-root-variable icon"></i>
+            <div>
+              <h3>Mathematics</h3>
+              <p>Problem-solving, analytical thinking & tutoring</p>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-html5 icon"></i>
+            <div>
+              <h3>Web Development</h3>
+              <p>HTML5, CSS3, modern responsive layouts</p>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-code-branch icon"></i>
+            <div>
+              <h3>Version Control</h3>
+              <p>Git, GitHub, deployment pipelines</p>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-terminal icon"></i>
+            <div>
+              <h3>Command Line</h3>
+              <p>Linux environment & developer tools</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Current Focus -->
-        <section class="content-section highlight-box">
-            <h2>Where I Am Today</h2>
-            <p>
-                Currently expanding my toolkit across software development, web engineering, and computer science fundamentals while helping high school learners build confidence in STEM subjects.
-            </p>
-        </section>
+      <!-- Featured Projects Section -->
+      <section id="projects" class="card">
+        <h2><i class="fa-solid fa-laptop-code"></i> Featured Projects</h2>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Personal Tribute & Portfolio Site</h3>
+            <span class="tech-tag">HTML / CSS / Git</span>
+          </div>
+          <p>
+            A lightweight, custom-designed dark-themed personal site hosted live on GitHub Pages. Features modern CSS glassmorphism and responsiveness.
+          </p>
+          <a href="https://github.com/shady-sox/who-am-i" target="_blank" class="project-link">
+            View Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </section>
 
-        <!-- Footer -->
-        <footer>
-            <p>Designed and coded by <strong>Sox</strong> | My First GitHub Project</p>
-        </footer>
+      <!-- Contact Section -->
+      <section id="contact" class="card contact-card">
+        <h2><i class="fa-solid fa-paper-plane"></i> Let's Connect</h2>
+        <p>Feel free to reach out to collaborate on projects or connect across professional platforms!</p>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/sibusiso-sokisi" target="_blank" class="contact-btn">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/shady-sox" target="_blank" class="contact-btn">
+            <i class="fa-brands fa-github"></i> GitHub Profile
+          </a>
+        </div>
+      </section>
+
     </main>
+
+    <footer>
+      <p>© 2026 Sibusiso Sokisi. Built with HTML & CSS.</p>
+    </footer>
+  </div>
 
 </body>
 </html>
