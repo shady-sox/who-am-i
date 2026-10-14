@@ -1,0 +1,79 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: #0f172a; /* Sleek dark blue background */
+    color: #e2e8f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Container */
+#main {
+    max-width: 750px;
+    width: 100%;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.4rem;
+    margin: 0;
+    color: #38bdf8; /* Bright accent color */
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-top: 5px;
+}
+
+
+
+/* Content Sections */
+.content-section {
+    margin-bottom: 30px;
+}
+
+.content-section h2 {
+    color: #38bdf8;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 8px;
+    font-size: 1.4rem;
+}
+
+.timeline {
+    padding-left: 20px;
+}
+
+.timeline li {
+    margin-bottom: 15px;
+}
+
+.highlight-box {
+    background: #0f172a;
+    padding: 20px;
+    border-left: 4px solid #38bdf8;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #334155;
+    font-size: 0.85rem;
+    color: #64748b;
+}
