@@ -337,3 +337,60 @@ footer {
     padding: 22px;
   }
 }
+/* About Me Side-by-Side Profile Image */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+.about-avatar {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  padding: 3px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.25);
+  transition: var(--transition);
+}
+
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 17px;
+  display: block;
+}
+
+.about-avatar:hover {
+  transform: scale(1.03) rotate(-1deg);
+  box-shadow: 0 12px 30px rgba(6, 182, 212, 0.35);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  margin-bottom: 12px;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile responsive layout adjustment */
+@media (max-width: 650px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about-avatar {
+    width: 130px;
+    height: 130px;
+  }
+}
